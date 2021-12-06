@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="62.117" tests="16" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\Driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\target\test-classes;C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\target\classes;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.2\log4j-1.2-api-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\plugins\maven-clean-plugin\3.1.0\maven-clean-plugin-3.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\plugins\maven-install-plugin\3.0.0-M1\maven-install-plugin-3.0.0-M1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\net\masterthought\cucumber-reporting\5.1.0\cucumber-reporting-5.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Somnath.Gaikwad\AppData\Local\Temp\surefire15107250356372254438\surefirebooter6845109832756873169.jar C:\Users\Somnath.Gaikwad\AppData\Local\Temp\surefire15107250356372254438 2021-11-18T17-42-26_017-jvmRun1 surefire7628323346015104586tmp surefire_06035404610059242250tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\target\test-classes;C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\target\classes;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Somnath.Gaikwad\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.2\log4j-1.2-api-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\plugins\maven-clean-plugin\3.1.0\maven-clean-plugin-3.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\plugins\maven-install-plugin\3.0.0-M1\maven-install-plugin-3.0.0-M1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.10.0\maven-artifact-transfer-0.10.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\net\masterthought\cucumber-reporting\5.1.0\cucumber-reporting-5.1.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Somnath.Gaikwad\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Somnath.Gaikwad\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Somnath.Gaikwad\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Somnath.Gaikwad\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Somnath.Gaikwad"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Somnath.Gaikwad\AppData\Local\Temp\surefire15107250356372254438\surefirebooter6845109832756873169.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="user.name" value="Somnath.Gaikwad"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Somnath.Gaikwad\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SOMNAT~1.GAI\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.2/bin/server;C:/Program Files/Java/jdk-11.0.2/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\apache-maven-3.8.3\bin;C:\Users\Somnath.Gaikwad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\apache-maven-3.8.3\bin;;C:\Users\Somnath.Gaikwad\Downloads\eclipse-java-2020-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;](1)" classname="TestRunner.MyTestRunner" time="20.234">
+    <system-out><![CDATA[Title of given page is Matched
+Outcome is :Enter first name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 47137
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b49C4h4rbom-eDrriefvse/rb wraasn cshta-rhteeadd ss/u4c6c6e4s@s{f#u6l8l0y}.)
+ on port 24594
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 19827
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680})S toan rptionrgt  C3h5r8o4m0eDr
+iOvnelry  l9o6c.a0.4664.3l5 c o(n8ndefc3tbiaobnfs8 dare allowed.
+Plae8afsaea 8saeaec bh7tt8pfs4:8/4/8cehfr6o6mae9d3rbi4v9e44rb.-crherfosm/iubmr.aonrcgh/-shecurity-ecaodns/4s6i6de4r@{a#t6i8o0ns})  foonr  spourgtg e1st0i32o0ns
+ oOnnl kye elopcianlg  cChornnomeectiDronivse ra rse aafel.lo
+wed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 11406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 34491
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+CChhrroommeeDrDirvievre rw awsa sst asrttaerdt esdu cscuecscsefsuslfluyll.y.
+
+ChromeDriver was started successfully.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 42841
+Only local Sctoannretcitnigo nCsh raormee aDlrilvoweerd 9.
+Ple6as.e0 .s4e6e6 4https://chromedriver.chromium.org/security.-3co5n s(i8ddefr3abtaibfo8ndas8 ffaoar8 sauagcgbe7s8tfi4o8n4s8 eofn6 6kae9e3pbi4n9g 4C4bh-rroemfesD/rbriavenrc hs-haefaed.s/
+4664@{#680}) on port 9581
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664C@h{#r6o80m}e)D roinv epro rwta s269 4s5ta
+rOtnedl y suclcoecasls fcuollnyn.ect
+ions are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Nov 18, 2021 5:42:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2021 5:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Get text from iframe&quot;, &quot;Optional[TC04_Iframe]&quot;](2)" classname="TestRunner.MyTestRunner" time="16.728">
+    <failure message="timeout: Timed out receiving message from renderer: 27.225&#10;  (Session info: chrome=96.0.4664.45)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SOMNATH-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\SOMNAT~1.GAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a648cf50526145f8657c3c1f4b07cbe2" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 27.225
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SOMNATH-PC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\SOMNAT~1.GAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a648cf50526145f8657c3c1f4b07cbe2
+]]></failure>
+    <system-out><![CDATA[product name is:Mi 4A 100 cm (40 inch) Full HD LED Smart Android TV
+Image displayed.
+star rating is:4.4
+Total rating is:6,46,028 Ratings 
+Outcome is :Choose a Gmail address
+Outcome is :Enter a password
+Outcome is :Enter last name
+5★      4★      3★      2★      1★      
+                              
+4,03,114      1,59,442      41,667      11,801      30,004      
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 10739
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 5:42:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1637237584.412][SEVERE]: Timed out receiving message from renderer: 27.225
+[1637237584.417][SEVERE]: Timed out receiving message from renderer: 27.225
+Nov 18, 2021 5:43:04 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;](3)" classname="TestRunner.MyTestRunner" time="0.683">
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 48629
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Read and Write ExcellFile&quot;, &quot;Optional[TC10_ExcellFile]&quot;](4)" classname="TestRunner.MyTestRunner" time="0.792">
+    <system-out><![CDATA[Name is:Somnath Gaikwad
+EmailId is:somnath123@gmail.com
+MobileNo is:1234567890
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Open result link in new tab&quot;, &quot;Optional[TC08_OpenNewTab]&quot;](5)" classname="TestRunner.MyTestRunner" time="1.472">
+    <system-out><![CDATA[list of categories are change
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 28267
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 5:43:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;](6)" classname="TestRunner.MyTestRunner" time="6.302">
+    <system-err><![CDATA[Nov 18, 2021 5:43:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 11832
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 18, 2021 5:43:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Image Uploading&quot;, &quot;Optional[TC02_PostImage]&quot;](7)" classname="TestRunner.MyTestRunner" time="1.054">
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.35 (8df3babf8da8faa8aacb78f4848ef66a93b4944b-refs/branch-heads/4664@{#680}) on port 19654
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;](8)" classname="TestRunner.MyTestRunner" time="4.122">
+    <system-out><![CDATA[product is fall between range
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Nov 18, 2021 5:43:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;To get URL and Browser Value from ExcellSheet&quot;, &quot;Optional[TC11_ExcellSheet]&quot;](9)" classname="TestRunner.MyTestRunner" time="5.483">
+    <system-out><![CDATA[5 star  38% 
+4 star  0% 
+3 star  17% 
+2 star  26% 
+1 star ]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify the List Of Categories&quot;, &quot;Optional[TC03_VerifySnapdealCategories]&quot;](10)" classname="TestRunner.MyTestRunner" time="5.496"/>
+  <testcase name="runScenario[&quot;To get star rating of product&quot;, &quot;Optional[TC06_Flipkart]&quot;](11)" classname="TestRunner.MyTestRunner" time="5.56">
+    <system-out><![CDATA[ 19% 
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Prouct falls between given range&quot;, &quot;Optional[TC05_VerifySnapdealProduct]&quot;](12)" classname="TestRunner.MyTestRunner" time="5.594"/>
+  <testcase name="runScenario[&quot;Open result link in new window&quot;, &quot;Optional[TC09_OpenNewWindow]&quot;](13)" classname="TestRunner.MyTestRunner" time="5.895"/>
+  <testcase name="runScenario[&quot;To get star rating of first product&quot;, &quot;Optional[TC07_Amazon]&quot;](14)" classname="TestRunner.MyTestRunner" time="6.558"/>
+  <testcase name="runScenario[&quot;Verify Title of Result Page&quot;, &quot;Optional[TC13_GoogleSearch]&quot;](15)" classname="TestRunner.MyTestRunner" time="6.984">
+    <failure message="expected [Title Of Page] but found [cucumber - Google Search]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Title Of Page] but found [cucumber - Google Search]
+]]></failure>
+  </testcase>
+  <testcase name="runScenario[&quot;booking of most cheapest flight&quot;, &quot;Optional[TC12_Goibibo]&quot;](16)" classname="TestRunner.MyTestRunner" time="11.907"/>
+</testsuite>

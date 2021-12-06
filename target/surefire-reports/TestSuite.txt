@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 62.117 s <<< FAILURE! - in TestSuite
+TestRunner.MyTestRunner.runScenario["Get text from iframe", "Optional[TC04_Iframe]"](2)  Time elapsed: 16.728 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 27.225
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SOMNATH-PC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\SOMNAT~1.GAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a648cf50526145f8657c3c1f4b07cbe2
+
+TestRunner.MyTestRunner.runScenario["Verify Title of Result Page", "Optional[TC13_GoogleSearch]"](15)  Time elapsed: 6.984 s  <<< FAILURE!
+java.lang.AssertionError: expected [Title Of Page] but found [cucumber - Google Search]
+

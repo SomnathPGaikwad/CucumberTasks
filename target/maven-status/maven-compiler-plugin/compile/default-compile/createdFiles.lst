@@ -1,0 +1,4 @@
+PageObjects\BaseClass.class
+PageObjects\Hooks.class
+PageObjects\Reporting.class
+PageObjects\Utility.class

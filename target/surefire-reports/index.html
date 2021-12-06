@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Title of Result Page&quot;, &quot;Optional[TC13_GoogleSearch]&quot;)">runScenario("Verify Title of Result Page", "Optional[TC13_GoogleSearch]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Get text from iframe&quot;, &quot;Optional[TC04_Iframe]&quot;)">runScenario("Get text from iframe", "Optional[TC04_Iframe]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Read and Write ExcellFile&quot;, &quot;Optional[TC10_ExcellFile]&quot;)">runScenario("Read and Write ExcellFile", "Optional[TC10_ExcellFile]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To get URL and Browser Value from ExcellSheet&quot;, &quot;Optional[TC11_ExcellSheet]&quot;)">runScenario("To get URL and Browser Value from ExcellSheet", "Optional[TC11_ExcellSheet]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To get star rating of product&quot;, &quot;Optional[TC06_Flipkart]&quot;)">runScenario("To get star rating of product", "Optional[TC06_Flipkart]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Open result link in new tab&quot;, &quot;Optional[TC08_OpenNewTab]&quot;)">runScenario("Open result link in new tab", "Optional[TC08_OpenNewTab]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;booking of most cheapest flight&quot;, &quot;Optional[TC12_Goibibo]&quot;)">runScenario("booking of most cheapest flight", "Optional[TC12_Goibibo]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the List Of Categories&quot;, &quot;Optional[TC03_VerifySnapdealCategories]&quot;)">runScenario("Verify the List Of Categories", "Optional[TC03_VerifySnapdealCategories]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Open result link in new window&quot;, &quot;Optional[TC09_OpenNewWindow]&quot;)">runScenario("Open result link in new window", "Optional[TC09_OpenNewWindow]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Prouct falls between given range&quot;, &quot;Optional[TC05_VerifySnapdealProduct]&quot;)">runScenario("Verify Prouct falls between given range", "Optional[TC05_VerifySnapdealProduct]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Image Uploading&quot;, &quot;Optional[TC02_PostImage]&quot;)">runScenario("Image Uploading", "Optional[TC02_PostImage]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.MyTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To get star rating of first product&quot;, &quot;Optional[TC07_Amazon]&quot;)">runScenario("To get star rating of first product", "Optional[TC07_Amazon]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestRunner.MyTestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Title of Result Page&quot;, &quot;Optional[TC13_GoogleSearch]&quot;)">
+                  </a> <!-- runScenario("Verify Title of Result Page", "Optional[TC13_GoogleSearch]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Title of Result Page", "Optional[TC13_GoogleSearch]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Title Of Page] but found [cucumber - Google Search]
+	at StepDefinitions.TC13_GoogleSearch_Steps.he_should_be_verify_title_of_result_page(TC13_GoogleSearch_Steps.java:45)
+	at ✽.He should be verify title of result page(file:///C:/Users/Somnath.Gaikwad/eclipse-workspace/CucumberTask/src/test/resource/FeatureFiles/TC13_GoogleSearch.feature:7)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get text from iframe&quot;, &quot;Optional[TC04_Iframe]&quot;)">
+                  </a> <!-- runScenario("Get text from iframe", "Optional[TC04_Iframe]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get text from iframe", "Optional[TC04_Iframe]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 27.225
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SOMNATH-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\SOMNAT~1.GAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a648cf50526145f8657c3c1f4b07cbe2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at StepDefinitions.TC04_Iframe_Steps.user_is_redirect_on_given_url_as(TC04_Iframe_Steps.java:28)
+	at ✽.User is redirect on given URL as &quot;https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst&quot;(file:///C:/Users/Somnath.Gaikwad/eclipse-workspace/CucumberTask/src/test/resource/FeatureFiles/TC04_Iframe.feature:5)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRunner.MyTestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Read and Write ExcellFile&quot;, &quot;Optional[TC10_ExcellFile]&quot;)">
+                  </a> <!-- runScenario("Read and Write ExcellFile", "Optional[TC10_ExcellFile]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Read and Write ExcellFile", "Optional[TC10_ExcellFile]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">
+                  </a> <!-- runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To get URL and Browser Value from ExcellSheet&quot;, &quot;Optional[TC11_ExcellSheet]&quot;)">
+                  </a> <!-- runScenario("To get URL and Browser Value from ExcellSheet", "Optional[TC11_ExcellSheet]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To get URL and Browser Value from ExcellSheet", "Optional[TC11_ExcellSheet]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To get star rating of product&quot;, &quot;Optional[TC06_Flipkart]&quot;)">
+                  </a> <!-- runScenario("To get star rating of product", "Optional[TC06_Flipkart]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To get star rating of product", "Optional[TC06_Flipkart]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Open result link in new tab&quot;, &quot;Optional[TC08_OpenNewTab]&quot;)">
+                  </a> <!-- runScenario("Open result link in new tab", "Optional[TC08_OpenNewTab]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Open result link in new tab", "Optional[TC08_OpenNewTab]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;booking of most cheapest flight&quot;, &quot;Optional[TC12_Goibibo]&quot;)">
+                  </a> <!-- runScenario("booking of most cheapest flight", "Optional[TC12_Goibibo]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("booking of most cheapest flight", "Optional[TC12_Goibibo]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">
+                  </a> <!-- runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the List Of Categories&quot;, &quot;Optional[TC03_VerifySnapdealCategories]&quot;)">
+                  </a> <!-- runScenario("Verify the List Of Categories", "Optional[TC03_VerifySnapdealCategories]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the List Of Categories", "Optional[TC03_VerifySnapdealCategories]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Open result link in new window&quot;, &quot;Optional[TC09_OpenNewWindow]&quot;)">
+                  </a> <!-- runScenario("Open result link in new window", "Optional[TC09_OpenNewWindow]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Open result link in new window", "Optional[TC09_OpenNewWindow]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">
+                  </a> <!-- runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Prouct falls between given range&quot;, &quot;Optional[TC05_VerifySnapdealProduct]&quot;)">
+                  </a> <!-- runScenario("Verify Prouct falls between given range", "Optional[TC05_VerifySnapdealProduct]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Prouct falls between given range", "Optional[TC05_VerifySnapdealProduct]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Image Uploading&quot;, &quot;Optional[TC02_PostImage]&quot;)">
+                  </a> <!-- runScenario("Image Uploading", "Optional[TC02_PostImage]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Image Uploading", "Optional[TC02_PostImage]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Gmail SignUp-Possible Combinations&quot;, &quot;Optional[TC01_GmailSignUp]&quot;)">
+                  </a> <!-- runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To get star rating of first product&quot;, &quot;Optional[TC07_Amazon]&quot;)">
+                  </a> <!-- runScenario("To get star rating of first product", "Optional[TC07_Amazon]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To get star rating of first product", "Optional[TC07_Amazon]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Somnath.Gaikwad\eclipse-workspace\CucumberTask\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestRunner.MyTestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'TestRunner.MyTestRunner')
+data.setCell(0, 3, 52778);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'TestRunner.MyTestRunner')
+data.setCell(1, 3, 51810);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'TestRunner.MyTestRunner')
+data.setCell(2, 3, 51778);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'TestRunner.MyTestRunner')
+data.setCell(3, 3, 51716);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'TestRunner.MyTestRunner')
+data.setCell(4, 3, 50342);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'TestRunner.MyTestRunner')
+data.setCell(5, 3, 47270);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'TestRunner.MyTestRunner')
+data.setCell(6, 3, 46215);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'TestRunner.MyTestRunner')
+data.setCell(7, 3, 37651);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'TestRunner.MyTestRunner')
+data.setCell(8, 3, 36932);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'TestRunner.MyTestRunner')
+data.setCell(9, 3, 20207);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'TestRunner.MyTestRunner')
+data.setCell(10, 3, 19698);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'TestRunner.MyTestRunner')
+data.setCell(11, 3, 18210);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'TestRunner.MyTestRunner')
+data.setCell(12, 3, 15162);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'TestRunner.MyTestRunner')
+data.setCell(13, 3, 13256);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'TestRunner.MyTestRunner')
+data.setCell(14, 3, 6985);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'TestRunner.MyTestRunner')
+data.setCell(15, 3, 792);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner.MyTestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To get star rating of product", "Optional[TC06_Flipkart]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the List Of Categories", "Optional[TC03_VerifySnapdealCategories]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Image Uploading", "Optional[TC02_PostImage]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Get text from iframe", "Optional[TC04_Iframe]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To get star rating of first product", "Optional[TC07_Amazon]")</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                <span class="method-start">334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Gmail SignUp-Possible Combinations", "Optional[TC01_GmailSignUp]")</span>
+                <span class="method-start">334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Prouct falls between given range", "Optional[TC05_VerifySnapdealProduct]")</span>
+                <span class="method-start">334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Open result link in new tab", "Optional[TC08_OpenNewTab]")</span>
+                <span class="method-start">20549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Open result link in new window", "Optional[TC09_OpenNewWindow]")</span>
+                <span class="method-start">37285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Read and Write ExcellFile", "Optional[TC10_ExcellFile]")</span>
+                <span class="method-start">37985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To get URL and Browser Value from ExcellSheet", "Optional[TC11_ExcellSheet]")</span>
+                <span class="method-start">38778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("booking of most cheapest flight", "Optional[TC12_Goibibo]")</span>
+                <span class="method-start">40248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Title of Result Page", "Optional[TC13_GoogleSearch]")</span>
+                <span class="method-start">46550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">58462 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">58681 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,14 @@
+StepDefinitions\TC07_Amazon_Steps.class
+StepDefinitions\TC11_ExcellSheet_Steps.class
+StepDefinitions\TC03_VerifySnapdealCategories_Steps.class
+StepDefinitions\TC13_GoogleSearch_Steps.class
+StepDefinitions\TC05_VerifySnapdealProduct_Steps.class
+StepDefinitions\TC01_GmailSignUp_Steps.class
+StepDefinitions\TC09_OpenNewWindow_Steps.class
+StepDefinitions\TC02_PostImage_Steps.class
+StepDefinitions\TC06_Flipkart_Steps.class
+StepDefinitions\TC12_Goibibo_Steps.class
+StepDefinitions\TC08_OpenNewTab_Steps.class
+StepDefinitions\TC10_ExcellFile_Steps.class
+TestRunner\MyTestRunner.class
+StepDefinitions\TC04_Iframe_Steps.class

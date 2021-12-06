@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-18T12:17:57.617Z",
+        "line": 4,
+        "name": "Verify Title of Result Page",
+        "description": "",
+        "id": "tc13-googlesearch;verify-title-of-result-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738953900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on google search Page",
+            "match": {
+              "location": "StepDefinitions.TC13_GoogleSearch_Steps.user_is_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1869320500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "He searches for text as \"cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cucumber\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitions.TC13_GoogleSearch_Steps.he_searches_for_text_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Title Of Page] but found [cucumber - Google Search]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat StepDefinitions.TC13_GoogleSearch_Steps.he_should_be_verify_title_of_result_page(TC13_GoogleSearch_Steps.java:46)\r\n\tat ✽.He should be verify title of result page(file:///C:/Users/Somnath.Gaikwad/eclipse-workspace/CucumberTask/src/test/resource/FeatureFiles/TC13_GoogleSearch.feature:7)\r\n",
+              "duration": 724234700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "He should be verify title of result page",
+            "match": {
+              "location": "StepDefinitions.TC13_GoogleSearch_Steps.he_should_be_verify_title_of_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag13"
+          }
+        ]
+      }
+    ],
+    "name": "TC13_GoogleSearch",
+    "description": "",
+    "id": "tc13-googlesearch",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/TC13_GoogleSearch.feature",
+    "tags": [
+      {
+        "name": "@tag13",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
